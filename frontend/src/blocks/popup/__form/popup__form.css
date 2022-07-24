@@ -1,0 +1,21 @@
+/* Popup */
+.popup__form {
+  margin: 0;
+  padding: 0;
+  width: 430px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.popup__form:hover {
+  cursor: default;
+}
+
+@media screen and (max-width: 540px) {
+  .popup__form {
+    width: 282px;
+  }
+}
